@@ -9,7 +9,7 @@ from IPython.display import HTML
 from datetime import timedelta, date
 
 #Reading file
-df = pd.read_csv("Covid-19-Spread-in-India---Statewise/covid_19_india.csv")
+df = pd.read_csv("covid_19_india.csv")
 df.rename(columns={'State/UnionTerritory':'state','Confirmed':'count'}, inplace = 'True')
 
 #Date range generator function
