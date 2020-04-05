@@ -9,7 +9,7 @@ from IPython.display import HTML
 from datetime import timedelta, date
 
 #Reading file
-df = pd.read_csv("/kaggle/input/covid19-in-india/covid_19_india.csv")
+df = pd.read_csv("Covid_19_India.csv")
 df.rename(columns={'State/UnionTerritory':'state','Confirmed':'count'}, inplace = 'True')
 
 #Date range generator function
